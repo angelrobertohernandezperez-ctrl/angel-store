@@ -1,11 +1,107 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ÁNGEL STORE</title>
+
+    <title>Angel Store</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
 </head>
+
 <body>
+
+<!-- ================= HEADER ================= -->
+
+<header>
+
+    <div class="logo">
+        Angel Store
+    </div>
+
+    <nav>
+
+        <a href="#inicio">Inicio</a>
+        <a href="#productos">Catálogo</a>
+        <a href="#contacto">Contacto</a>
+
+    </nav>
+
+</header>
+
+<!-- ================= HERO ================= -->
+
+<section id="inicio" class="hero">
+
+    <div class="hero-text">
+
+        <h1>ENTRENA SIN LÍMITES</h1>
+
+        <p>Ropa deportiva de calidad.</p>
+
+        <a href="#productos" class="btn-principal">
+            Ver catálogo
+        </a>
+
+    </div>
+
+</section>
+
+<!-- ================= FILTROS ================= -->
+
+<section class="filtros">
+
+    <button class="filtro activo" data-categoria="Todos">Todos</button>
+
+    <button class="filtro" data-categoria="Compresión">Compresión</button>
+
+    <button class="filtro" data-categoria="Oversize">Oversize</button>
+
+    <button class="filtro" data-categoria="Jersey">Jersey</button>
+
+    <button class="filtro" data-categoria="Tank Top">Tank Top</button>
+
+</section>
+
+<!-- ================= PRODUCTOS ================= -->
+
+<section id="productos" class="productos">
+
+    <h2>Productos</h2>
+
+    <div class="grid-productos"></div>
+
+</section>
+
+<!-- ================= CONTACTO ================= -->
+
+<section id="contacto" class="contacto">
+
+    <h2>¿Te interesa alguna playera?</h2>
+
+    <p>Contáctame directamente por WhatsApp.</p>
+
+    <a
+        class="btn-principal"
+        href="https://wa.me/5578922414"
+        target="_blank">
+
+        Escribir por WhatsApp
+
+    </a>
+
+</section>
+
+<script src="data/productos.js"></script>
+<script src="js/app.js"></script>
 
 </body>
 </html>

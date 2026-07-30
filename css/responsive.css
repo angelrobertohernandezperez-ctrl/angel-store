@@ -1,0 +1,153 @@
+/* ===========================
+   TABLETS
+=========================== */
+
+@media (max-width:900px){
+
+    header{
+    
+        flex-direction:column;
+        padding:20px;
+    
+    }
+    
+    nav{
+    
+        margin-top:15px;
+        display:flex;
+        gap:20px;
+        flex-wrap:wrap;
+        justify-content:center;
+    
+    }
+    
+    .hero{
+    
+        padding:100px 25px;
+    
+    }
+    
+    .hero h1{
+    
+        font-size:50px;
+    
+    }
+    
+    .grid-productos{
+    
+        grid-template-columns:repeat(2,1fr);
+    
+    }
+    
+    }
+    
+    
+    /* ===========================
+       CELULARES
+    =========================== */
+    
+    @media (max-width:600px){
+    
+    .logo{
+    
+        font-size:24px;
+    
+    }
+    
+    nav{
+    
+        gap:15px;
+    
+    }
+    
+    nav a{
+    
+        font-size:15px;
+    
+    }
+    
+    .hero{
+    
+        padding:70px 20px;
+    
+    }
+    
+    .hero h1{
+    
+        font-size:38px;
+        line-height:1.1;
+    
+    }
+    
+    .hero p{
+    
+        font-size:17px;
+    
+    }
+    
+    .btn-principal{
+    
+        width:100%;
+        max-width:280px;
+    
+    }
+    
+    .filtros{
+    
+        gap:10px;
+        padding:0 15px;
+    
+    }
+    
+    .filtro{
+    
+        width:100%;
+    
+    }
+    
+    .productos{
+    
+        padding:20px;
+    
+    }
+    
+    .grid-productos{
+    
+        grid-template-columns:1fr;
+    
+        gap:25px;
+    
+    }
+    
+    .producto{
+    
+        max-width:360px;
+        margin:auto;
+    
+    }
+    
+    .producto img{
+    
+        height:380px;
+    
+    }
+    
+    .contacto{
+    
+        padding:70px 20px;
+    
+    }
+    
+    .contacto h2{
+    
+        font-size:30px;
+    
+    }
+    
+    .contacto p{
+    
+        font-size:16px;
+    
+    }
+    
+    }
