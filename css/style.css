@@ -498,3 +498,8 @@ color: #999;
     transform:translateY(-3px);
     background:#ff5555;
 }
+.logo img{
+    height: 170px;
+    width: auto;
+    display: block;
+}
