@@ -19,7 +19,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 60px;
+    padding: 15px 8px;
     background:black;
 
 }
@@ -499,7 +499,7 @@ color: #999;
     background:#ff5555;
 }
 .logo img{
-    height: 170px;
+    height: 60px;
     width: auto;
     display: block;
 }

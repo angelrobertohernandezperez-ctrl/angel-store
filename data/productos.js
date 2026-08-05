@@ -25,7 +25,7 @@ const productos = [
     },
     
     {
-        nombre: "Compresion Negro GS",
+        nombre: "Onyx Gris",
         precio: 200,
         imagen: "img/productos/gsnegra.png",
         categoria: "Compresión",
@@ -38,6 +38,42 @@ const productos = [
         imagen: "img/productos/Ygtanktop.png",
         categoria: "Tank Top",
         stock: true
-    }
-    
+    },
+
+    {
+    nombre: "Batman Gris",
+    precio: 350,
+    imagen: "img/productos/batmangris.png",
+    categoria: "Compresión",
+    stock: true,
+    tallas:["S","M","L","XL"]
+},
+
+
+{
+    nombre: "Batman Negra",
+    precio: 350,
+    imagen: "img/productos/batmannegra.png",
+    categoria: "Compresión",
+    stock: true,
+    tallas:["S","M","L","XL"]
+},
+
+{
+    nombre: "Jersey 00",
+    precio: 250,
+    imagen: "img/productos/Jersey 00.png",
+    categoria: "Jersey",
+    stock: true,
+    tallas:["M","L","XL"]
+},
+
+{
+    nombre: "Onyx Negra",
+    precio: 350,
+    imagen: "img/productos/Onyxnegra.png",
+    categoria: "Compresión",
+    stock: true,
+    tallas:["S","M","L","XL"]
+}
     ];
